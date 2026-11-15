@@ -20,7 +20,7 @@ jobs:
       - name: Web files
         run: |
           mkdir www
-          cp index.html firebase-config.js shim.js manifest.webmanifest sw.js icon-192.png icon-512.png www/
+          cp index.html shim.js peerjs.min.js manifest.webmanifest sw.js icon-192.png icon-512.png www/
       - name: Capacitor
         run: |
           npm init -y > /dev/null
